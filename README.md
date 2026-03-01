@@ -55,7 +55,8 @@ Example config.json:
 - `ignore_filetypes` works like a `.gitignore`, it ignores folders and file types listed here (within the specified paths).
 
 This demo config will run something like:
-```
+
+``` bash
 ssh pi@192.168.1.42 echo OK                                                                                         (test connection)
 
 ssh pi@192.168.1.42 ls -1 ~/backups                                                                                 (get existing backup folders)
