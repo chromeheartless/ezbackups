@@ -1,0 +1,19 @@
+{
+    "remote_hostname": "pi",
+    "remote_host": "192.168.1.42",
+    "remote_backup_dir": "~/backups",
+
+    "keep_days": 3,
+    "keep_backups": 10,
+    "clear_trash": true,
+
+    "paths": [
+        "~/Documents/code",
+        "~/.config"
+    ],
+
+    "ignore_filetypes": [
+        "__pycache__",
+        ".log"
+    ]
+}
